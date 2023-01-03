@@ -12,11 +12,36 @@ body {
     background: var(--primary-color);
   }
 
+  header .navbar {
+    color: #5f5fa2;
+  }
 
-  
+
+  .jumbotron {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    background: #e0e0f1;
+  }
 
 .jumbotron img {
     border-radius: 50%;
     width: 270px;
     height: 270px;
+}
+
+.jumbotron div {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  padding-top: 0.2em;
 }
