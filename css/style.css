@@ -1,0 +1,22 @@
+/* variables */
+:root {
+  --bg-color: #e8eef0;
+  --header-color: #5f5fa2;
+  --primary-color: #e3e3ee;
+  --text-color: #56575a;
+}
+
+body {
+    font-family: serif;
+    color: var(--text-color);
+    background: var(--primary-color);
+  }
+
+
+  
+
+.jumbotron img {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+}
