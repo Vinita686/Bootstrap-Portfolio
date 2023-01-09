@@ -9,11 +9,12 @@
 body {
     font-family: serif;
     color: var(--text-color);
-    background: var(--primary-color);
+    background: var(--primary-color)
+    
   }
 
-  header .navbar {
-    color: #5f5fa2;
+  .navbar {
+    background-color: var(--header-color) !important;
   }
 
 
@@ -30,8 +31,8 @@ body {
 
 .jumbotron img {
     border-radius: 50%;
-    width: 270px;
-    height: 270px;
+    width: 150px;
+    height: 150px;
 }
 
 .jumbotron div {
@@ -44,4 +45,24 @@ body {
 .jumbotron p {
   font-size: 1.2em;
   padding-top: 0.2em;
+}
+
+.ProjectCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+  background-color: var(--header-color);
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+
+.display-4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Card :hover {
+  opacity: 100%;
 }

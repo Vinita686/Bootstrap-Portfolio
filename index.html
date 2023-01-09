@@ -14,7 +14,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="header
+    ">
+      <h2>Web Dev</h2>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -22,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav justify-content-center ml-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link active" href="#AboutMe">About Me</a>
             </li>
@@ -30,18 +32,22 @@
               <a class="nav-link active" href="#Projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#ContactMe">Contact Me</a>
+              <a class="nav-link active" href="#Skills">Skills</a>
             </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactMe">Contact Me</a>
+            </li>
+          </ul>
         </div>
       </nav>
       <!-- end navigation -->
     </header>
+
   <!-- jumbotron -->
   <section class="jumbotron jumbotron-fluid" id="AboutMe">
     <img src="./images/myImg2.jpg" alt="vinita's pic">
     <div>
-      <h1 class="display-3"><span class="strong">V</span>inita <span class="strong">Y</span>adav</h1>
+      <h1 class="display-3"><span class="strong">Vinita Yadav</span></h1>
       <h2>Front-End / Web Developer</h2>
       <p class="intro">Hello 👋 My name is Vinita and I would like to welcome you on my portfolio page.</p>
       <p>I started my journey with Front-end Web Development bootcamp at Trilogy skills bootcamp. This course has allowed me to learn completely new tools - HTML, CSS, Bootstrap and JavaScript so far.</p>
@@ -49,55 +55,107 @@
   </section>
   <!-- end jumbotron -->
 
-  <!--  content cards -->
+  <!--  Project cards -->
   
-  <section class="skillsCard" id="Projects">
+  <section class="ProjectCard" id="Projects">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-5 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="/images/card5.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Project 1</h5>
-        <p class="card-text">In this project I have used HTML, CSS, Bootsrap4 and JavaScript</p>
-        <a href="https://vinita686.github.io/travel-california-website/" class="btn btn-primary">See the website</a>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-3 col-md-5 col-sm-12">
-    <div class="card" style="width: 18rem;">
-      <img src="/images/card6.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Project 2</h5>
-        <p class="card-text">In this project I have refactored the code using semantic HTML to enhance accessibiliy and SEO</p>
-        <a href=" https://vinita686.github.io/first-challenge-project/" class="btn btn-primary">See the website</a>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-3 col-md-5 col-sm-12">
-      <div class="card" style="width: 18rem;">
-        <img src="/images/card3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Project 3</h5>
-          <p class="card-text">In this project I have made my portfolio website using CSS Flex-box,Variables and Media-queries</p>
-          <a href="https://vinita686.github.io/challenge-portfolio/" class="btn btn-primary">See the website</a>
-        </div>
-      </div>
-      </div>
-      <div class="col-lg-3 col-md-5 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="/images/card4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Project 4</h5>
-            <p class="card-text">This is my very first webpage which I have created using HTML, CSS an JavaScript</p>
-            <a href="https://vinita686.github.io/prework-study-guide/" class="btn btn-primary">See the website</a>
+          <div class="card" style="width: 16rem;">
+            <img src="/images/card5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">In this project I have used HTML, CSS, Bootsrap4 and JavaScript and the website is responsive.</p>
+                  <a href="https://vinita686.github.io/travel-california-website/" target="_blank" class="btn btn-primary">See the website</a>
+              </div>
           </div>
         </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="card">
+            <img src="/images/card6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">In this project I have refactored the code using semantic HTML to enhance accessibiliy and SEO</p>
+                <a href=" https://vinita686.github.io/first-challenge-project/" target="_blank" class="btn btn-primary">See the website</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="card">
+            <img src="/images/card3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">In this project I have made my portfolio website using CSS Flex-box,Variables and Media-queries</p>
+                  <a href="https://vinita686.github.io/challenge-portfolio/" target="_blank" class="btn btn-primary">See the website</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+           <div class="card">
+             <img src="/images/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Project 4</h5>
+                 <p class="card-text">This is my very first webpage which I have created using HTML, CSS an JavaScript</p>
+                 <a href="https://vinita686.github.io/prework-study-guide/" target="_blank" class="btn btn-primary">See the website</a>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+  </div>
+</section>
 
-  </section>
+<!-- Skills section -->
+<div>
+  <h3 class="display-4">Skills</h3>
+</div>
+<section class="container" id="Skills">
+  <div class = "row">
+    <div class="col-lg-4 col-md-5 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Front-End Foundations</h5>
+            <ul>
+             <li>HTML/CSS/Git</li>
+             <li>User experience design</li>
+             <li>Bootstrap</li>
+             <li>JavaScript</li>
+             <li>API's</li>
+            </ul>
+        </div>
+      </div>
+  </div>
+      <div class="col-lg-4 col-md-5 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Front-End Frameworks</h5>
+          <ul>
+          <li>Node.js</li>
+          <li>ES6</li>
+          <li>Object-oriented programming</li>
+          <li>Test-driven development</li>
+          <li>React</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Group Projects</h5>
+              <ul>
+              <li>Team collaboration</li>
+              <li>Agile development</li>
+              <li>Project demonstration and storytelling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+</section>
+
+
     
 
   
