@@ -19,7 +19,7 @@ As a Developer I want to create my portfolio using following Bootstrap component
 ## Acceptance Criteria :
 Its done when all the above conditions are satisfied.
 
-Deployed Application's URL : 
+Deployed Application's URL : https://vinita686.github.io/Bootstrap-Portfolio/ 
 
 Screenshot of Portfolio website :
 ![Portfolio image](/images/Screenshot.png)
