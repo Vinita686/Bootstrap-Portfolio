@@ -15,7 +15,7 @@ body {
   }
 
   /* header section */
-  header {
+header {
   background-color: var(--header-color);
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,6 @@ header h2 {
 }
 
 /* navbar */
-
 header nav {
   color: var(--header-color);
 }
@@ -58,7 +57,6 @@ header li :hover {
 /* end header */
   
 /* jumbotron */
-
 .jumbotron {
     width: 100%;
     display: inline-flex;
@@ -87,11 +85,9 @@ header li :hover {
   font-size: 1.2em;
   padding-top: 0.2em;
 }
-
 /* end of jumbotron */
 
-/* project section */
-
+/* Work section */
 .ProjectCard {
   background-color: var(--primary-color);
   margin-bottom: 40px;
@@ -100,12 +96,14 @@ header li :hover {
 .container :hover {
   opacity: 100%;
 }
+
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
   opacity: 80%;
   box-shadow: 10px 10px 50px rgb(175, 169, 169);
@@ -123,6 +121,7 @@ header li :hover {
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
+/* Skills section */
 .skills{
   display: inline-flex;
   justify-content: space-around;
@@ -137,4 +136,41 @@ header li :hover {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* footer */
+footer {
+  display: inline-flex;
+  width: 100%;
+  height: 70px;
+  background-color: var(--header-color);
+  margin-top: 80px;
+}
+#ContactMe {
+  width: 30%;
+  display: flex;
+  justify-items: center;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+#ContactMe :hover {
+  opacity: 80%;
+  box-shadow: 5px 5px 10px;
+}
+
+.copyright {
+  width: 30%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer p {
+  background-color: var(--header-color);
+  text-decoration-line: underline;
+  color: var(--primary-color);
+  font-weight: 200;
+  font-size: 20px;
+}
+
 
