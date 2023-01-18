@@ -22,4 +22,4 @@ Its done when all the above conditions are satisfied.
 Deployed Application's URL : 
 
 Screenshot of Portfolio website :
-![Portfolio image](/images/Screeshot.png)
+![Portfolio image](/images/Screenshot.png)
